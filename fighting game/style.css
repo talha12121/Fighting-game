@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url(./images/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+    width: 100%;
+    background-position: center;
+}
+.one{
+    position: absolute;
+    bottom: 0px;
+    height: 300px;
+    margin-left: 100px;
+}
+.two{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 100px;
+    height: 300px;
+}
+.main-btn{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.btn{
+    padding: 10px;
+   color: rgb(192, 56, 56);
+    background-color: rgb(164, 186, 189);
+    border-radius: 15px;
+}
+.btn:hover{
+   background-color: blue;
+}
